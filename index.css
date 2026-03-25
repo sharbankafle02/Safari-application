@@ -62,7 +62,7 @@ body{
     padding-left:20px;
     padding-right:20px;
 }
-.right-container p{
+.right-container a{
     font-family:Helvetica;
     font-weight:500;
     font-size:18px;
@@ -71,6 +71,12 @@ body{
     cursor:pointer;
     padding:5px 10px;
     border-radius:10px;
+    text-decoration:none;
+    color:black;
+}
+.right-container a:hover{
+    background-color:green;
+    color:white;
 }
 .right-container select{
     padding:5px 10px;
