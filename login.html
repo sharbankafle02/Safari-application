@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="navigation-container">
+            <div class="left-container">
+                <img src="Images/safari logo.png">
+            </div>
+        </div>
+        <div class="inside-login-container">
+            <div class="logo-container">
+                <img src="Images/safari logo.png" class="logo">
+            </div>
+            <div class="login-container">
+                <div class="username-container">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="username" placeholder="Enter your phonenumber">
+                </div>
+                <div class="password-container">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <button id="loginButton">Login</button>
+                <div class="password-forget-container">
+                    <a href="#" id="password-forget">Forgetten password?</a>
+                </div>
+                <div class="SignUp-container">
+                    <button id="signup">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/e29314cdc4.js" crossorigin="anonymous"></script>
 </body>
 </html>
