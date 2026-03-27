@@ -45,6 +45,8 @@ body{
     padding:20px 40px;
 }
 .logo-container{
+    display: felx;
+    justify-content: center;
     width:150px;
     height:150px;
 }

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:"Roboto";
+    padding:0;
+    margin:0;
+}
+.main-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+    
+}
+.navigation-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:20px;
+    width:100%;
+    height:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:transparent;
+    box-shadow:5px 3px 20px gray;
+    position:fixed;
+}
+.left-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:left;
+    gap:20px;
+    padding:10px;
+}
+.left-container img{
+    width:100px;
+    cursor:pointer;
+}
+.login-container{
+    margin-top:200px;
+    display:flex;
+    flex-direction:column ;
+    align-items:center;
+    width:400px;
+    box-shadow:5px 3px 20px gray;
+   
+    margin-bottom: 0px;
+    
+}
+.logo-container{
+    width:150px;
+    height:150px;
+    align-self: center;
+}
+.logo-container img{
+    width:100%;
+    height:100%;
+}
+.user-details-container{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-bottom: 0;
+}
+.username-section{
+    border-radius: 50px;
+    background-color:rgba(205, 205, 205, 0.378);
+    padding:10px 10px;
+    background:transparent;
+
+
+}
+ i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+    margin-right:5px;
+    padding:0px;
+
+}
+.password-section{
+   
+    padding:10px 10px;
+    border-radius:50px;
+    background-color:rgba(205, 205, 205, 0.378);
+    background:transparent;
+}
+.user-details-container input{
+    font-size:18px;
+    border:none;
+    outline:none;
+    background:transparent;
+          
+}
+
+.mainlogin-container{
+    text-align:center;
+    margin-top:30px;
+}
+.mainlogin-container button{
+    padding:10px 20px;
+    width:280px;
+    border-radius: 20px;
+    font-size:25px;
+    cursor: pointer;
+    border:none;
+    background-color:green;
+    color:white;
+    letter-spacing:1px;
+    transition:all 0.5s ease;
+}
+.login:hover{
+    background-color:rgba(21, 68, 21, 0.821);
+    /* border-radius: 20px; */
+}
+.forget-remember-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    margin-top:20px;
+    
+}
+
+.forget-section{
+    font-size:16px;
+    margin:0;
+    
+}
+ a{
+    color:black;
+    text-decoration: none;
+}
+.register-container{
+    margin-bottom: 20px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
