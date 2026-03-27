@@ -91,7 +91,7 @@ body{
     border:none;
     outline:none;
     background:transparent;
-    border:1px solid black;
+    border:none;
     padding:10px 20px;
     border-radius:10px;
     background-color:rgb(182, 182, 182); 
@@ -107,7 +107,7 @@ body{
     padding:10px 20px;
     width:280px;
     border-radius: 20px;
-    font-size:25px;
+    font-size:18px;
     cursor: pointer;
     border:none;
     background-color:green;
@@ -116,7 +116,7 @@ body{
     transition:all 0.5s ease;
 }
 .login:hover{
-    background-color:rgba(21, 68, 21, 0.821);
+    background-color:rgba(0, 60, 0, 0.821);
     /* border-radius: 20px; */
 }
 .forget-remember-container{
