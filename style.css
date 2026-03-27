@@ -8,8 +8,6 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-   
-    
 }
 .navigation-container{
     display:flex;
@@ -37,15 +35,13 @@ body{
     cursor:pointer;
 }
 .login-container{
-    margin-top:200px;
+    margin-top:150px;
     display:flex;
     flex-direction:column ;
     align-items:center;
     width:400px;
     box-shadow:5px 3px 20px gray;
-   
     margin-bottom: 0px;
-    
 }
 .logo-container{
     width:150px;
@@ -67,8 +63,6 @@ body{
     background-color:rgba(205, 205, 205, 0.378);
     padding:10px 10px;
     background:transparent;
-
-
 }
  i{
     display: flex;
@@ -77,10 +71,8 @@ body{
     font-size:18px;
     margin-right:5px;
     padding:0px;
-
 }
 .password-section{
-   
     padding:10px 10px;
     border-radius:50px;
     background-color:rgba(205, 205, 205, 0.378);
@@ -94,10 +86,10 @@ body{
     border:none;
     padding:10px 20px;
     border-radius:10px;
-    background-color:rgb(182, 182, 182); 
+    background-color:rgb(220, 220, 220); 
 }
 .user-details-container input:focus{
-    outline:2px solid green;
+    outline:3px solid green;
 }
 .mainlogin-container{
     text-align:center;
@@ -136,7 +128,6 @@ a{
 }
 .register-container{
     margin-bottom: 20px;
-    
 }
 a:hover{
     text-decoration: underline;
@@ -156,7 +147,4 @@ a:hover{
 .remember-section label{
     font-size:18px;
     letter-spacing:1px;
-}
-#username:focus{
-    outline:1px solid green;
 }
