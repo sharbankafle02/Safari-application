@@ -7,8 +7,58 @@
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    
-
+    <div class="main-container">
+        <div class="navigation-container">
+            <div class="left-container">
+                <img src="Images/safari logo.png">
+            </div>
+        </div>
+        <div class="signup-container">
+            <div class="heading-container">
+                <h1>Create Account</h1>
+                <p>Fill your information below or register with your social account</p>
+            </div>
+            <div class="userDetail-container">
+                <div class="name-container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="phoneNumber-container">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" id="phonenumber" placeholder="98XXXXXXXX">
+                </div>
+                <div class="email-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="password-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="term-container">
+                    <input type="checkbox" id="term">
+                    <label for="term">Agree with <a>term & condition</a></label>
+                </div>
+                <button id="signupButton">Sign Up</button>
+                <div class="link-container">
+                    <p>Or sign up with</p>
+                    <div class="social-container">
+                        <div class="google-container">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div class="apple-container">
+                            <i class="fa-brands fa-apple"></i>
+                        </div>
+                        <div class="facebook-container">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Already have an account? <a href="#">Sign In</a> </p>
+            </div>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/e29314cdc4.js" crossorigin="anonymous"></script>
 <script src="signup.js"></script>
 </body>
 </html>
