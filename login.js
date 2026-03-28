@@ -3,3 +3,6 @@ const logoContainer=document.querySelector(".left-container");
 logoContainer.addEventListener("click",()=>{
     window.location.href = "index.html";
 });
+const googleLink=document.querySelector(".google-container");
+const appleLink=document.querySelector(".apple-container");
+const facebookLink=document.querySelector(".facebook-container");
