@@ -96,10 +96,17 @@ body{
 .password-container:focus-within{
     outline:3px solid green;
 }
+.forget-rem-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    text-align: top;
+}
 #forget_password{
-    text-align:right;
+    text-align:left;
     font-size:15px;
-    width:100%;
+    /* width:100%; */
     cursor:pointer;
 }
 #forget_password:hover{
@@ -108,18 +115,19 @@ body{
 }
 .remember-container{
     display:flex;
-    flex-direction:row;
-    align-items:center;
-    gap:10px;
+    /* justify-content: center;
+    align-items: center; */
+    gap:5px;
 }
 .remember-container input{
     accent-color:green;
-    height:18px;
-    width:18px;
+    height:13px;
+    width:13px;
+    
 }
 .remember-container label{
-    font-size:18px;
-    letter-spacing:1px;
+    font-size:15px;
+    
 }
 #loginButton{
     font-size:18px;
