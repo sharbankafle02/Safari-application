@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:"Roboto";
+    padding:0;
+    margin:0;
+}
+.main-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.navigation-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:20px;
+    width:100%;
+    height:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:transparent;
+    box-shadow:5px 3px 20px gray;
+    position:fixed;
+    top:0;
+}
+.left-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:left;
+    gap:20px;
+    padding:10px;
+}
+.left-container img{
+    width:100px;
+    cursor:pointer;
+}
+.login-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:10px 20px;
+    box-shadow:5px 5px 20px gray;
+    border-radius:10px;
+    margin-top:60px;
+    width:350px;
+}
+.logo-container{
+    width:150px;
+    height:150px;
+}
+.logo{
+    width:100%;
+    height:100%;
+}
+.userDetail-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+.userDetail-container i{
+    font-size:20px;
+}
+.user-container,.password-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:10px;
+    transition:all 0.3s ease;
+}
+.userDetail-container input{
+    font-size:18px;
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    letter-spacing:1px;
+    outline:none;
+    background-color:rgba(201, 201, 201, 0.574);
+}
+.userDetail-container input:focus{
+    background-color:white;
+}
+.user-container:focus-within{
+    background-color:white;
+    outline:3px solid green;
+}
+.password-container:focus-within{
+    outline:3px solid green;
+}
+.forget-rem-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    text-align: top;
+}
+#forget_password{
+    text-align:left;
+    font-size:15px;
+    /* width:100%; */
+    cursor:pointer;
+}
+#forget_password:hover{
+    color:blue;
+    text-decoration:underline;
+}
+.remember-container{
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap:5px;
+}
+.remember-container input{
+    accent-color:green;
+    height:13px;
+    width:13px;
+    
+}
+.remember-container label{
+    font-size:15px;
+    
+}
+#loginButton{
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:1px;
+    padding:10px 20px;
+    width:90%;
+    border:none;
+    border-radius:10px;
+    background-color:green;
+    color:white;
+    cursor:pointer;
+    transition:all 0.5s ease;
+}
+#loginButton:hover{
+    background-color:rgb(0, 66, 0);
+}
+.social-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.social-container p{
+    font-size:18px;
+}
+.link-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+.link-container div{
+    padding:10px;
+    border-radius:50%;
+    cursor:pointer;
+    transition:all 0.5s ease;
+}
+.link-container a{
+    font-size:18px;
+}
+.link-container div:hover{
+    background-color:rgba(190, 190, 190, 0.384);
+}
+.register-container p{
+    font-size:18px;
+    letter-spacing:0.5px;
+    margin-top:0;
+}
+.register-container p a{
+    text-decoration:none;
+    color:black;
+}
+.register-container p a:hover{
+    text-decoration:underline;
+    color:blue
+}
