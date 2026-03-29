@@ -85,6 +85,7 @@ body{
     letter-spacing:1px;
     outline:none;
     background-color:rgba(201, 201, 201, 0.574);
+    width:250px;
 }
 .userDetail-container input:focus{
     background-color:white;
@@ -99,13 +100,14 @@ body{
 .forget-rem-container{
     display:flex;
     flex-direction: row;
+    align-items:center;
     justify-content: center;
-    gap:10px;
+    gap:20px;
     text-align: top;
 }
 #forget_password{
     text-align:left;
-    font-size:15px;
+    font-size:18px;
     /* width:100%; */
     cursor:pointer;
 }
@@ -115,19 +117,18 @@ body{
 }
 .remember-container{
     display:flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     gap:5px;
 }
 .remember-container input{
     accent-color:green;
-    height:13px;
-    width:13px;
-    
+    height:18px;
+    width:18px;
+    cursor:pointer;
 }
 .remember-container label{
-    font-size:15px;
-    
+    font-size:18px;
 }
 #loginButton{
     font-size:18px;

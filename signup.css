@@ -43,11 +43,13 @@ body{
     flex-direction:column;
     align-items:left;
     justify-content:left;
-    margin-top: 60px;
+    margin-top: 80px;
     position: relative;
     z-index: 1;
     padding: 20px;
     transition: 0.3s;
+    box-shadow:5px 4px 20px gray;
+    border-radius:10px;
 }
 .heading-container{
     display:flex;
@@ -56,6 +58,7 @@ body{
     justify-content:center;
 }
 .heading-container h1{
+    font-size:25px;
     margin-bottom:0;
     letter-spacing:1px;
 }
@@ -71,97 +74,53 @@ body{
     gap:20px;
     margin-top:10px;
 }
-.name-container{
-    display:flex;
-    flex-direction:column;
-    align-items:left;
-    gap:10px;
-}
-.name-container label{
-    font-size:18px;
-    letter-spacing:0.5px;
-}
-.name-container input{
-    font-size:18px;
-    padding:10px 20px;
-    border:none;
-    border-radius:10px;
-    background-color:rgba(201, 201, 201, 0.574);
-    outline:none;
-}
-.name-container input:focus{
-    outline:2px solid green;
-}
-.phoneNumber-container{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-}
-.phoneNumber-container label{
-    font-size:18px;
-    letter-spacing:0.5px;
-}
-.phoneNumber-container input{
-    font-size:18px;
-    padding:10px 20px;
-    border:none;
-    border-radius:10px;
-    background-color:rgba(201, 201, 201, 0.574);
-    outline:none;
-}
-.phoneNumber-container input:focus{
-    outline:2px solid green;
-}
-.email-container{
-    display:flex;
-    flex-direction:column;
-}
-.email-container label{
-    font-size:18px;
-    letter-spacing:0.5px;
-}
-.email-container input{
-    font-size:18px;
-    padding:10px 20px;
-    border:none;
-    border-radius:10px;
-    background-color:rgba(201, 201, 201, 0.574);
-    outline:none;
-}
-.email-container input:focus{
-    outline:2px solid green;
-}
-.password-container{
-    display:flex;
-    flex-direction:column;
-}
-.password-container label{
-    font-size:18px;
-    letter-spacing:0.5px;
-}
-.password-container input{
-    font-size:18px;
-    padding:10px 20px;
-    border:none;
-    border-radius:10px;
-    background-color:rgba(201, 201, 201, 0.574);
-    outline:none;
-}
-.password-container input:focus{
-    outline:2px solid green;
-}
-.term-container{
+.userDetail-container div{
     display:flex;
     flex-direction:row;
+    align-items:center;
     gap:10px;
+    width:90%;
+    border-radius:10px;
+    transition:all 0.1s ease;
+    padding-left:5px;
+
 }
-.term-container input{
-    width:18px;
-    height:18px;
+.userDetail-container div input{
+    outline:none;
+    border:1px solid black;
+    padding-left:10px;
+    padding-right:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    font-size:18px;
+    background-color:rgb(220, 220, 220);
+    border:none;
+}
+.userDetail-container div:focus-within{
+    outline:2px solid green;
+    background-color:white;
+}
+.userDetail-container div input:focus{
+    background-color:white;
+}
+#name,#phonenumber,#email,#password{
+    width:100%;
+}
+#term-condition{
+    display:flex;
+    flex-direction:row;
+    align-items:left;
+    justify-content:left;
     accent-color:green;
+    outline:none;
+}
+#term-condition input{
+    height:18px;
+    width:18px;
     cursor:pointer;
 }
-.term-container label{
+#term-condition label{
     font-size:18px;
 }
 #signupButton{
@@ -179,23 +138,30 @@ body{
 #signupButton:hover{
     background-color:rgb(0, 61, 0);
 }
-.link-container{
+#link-container{
     display:flex;
     flex-direction:column;
+    justify-content:center;
     align-items:center;
     margin-bottom:0;
 }
-.link-container p{
+#link-container p{
     font-size:18px;
     letter-spacing:1px;
 }
-.social-container{
+#social-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-top:-20px;
+}
+#social-container div{
     display:flex;
     flex-direction:row;
     align-items:center;
-    gap:20px;
-}
-.social-container div{
+    justify-content:center;
     padding:15px;
     height:20px;
     width:20px;
@@ -205,7 +171,7 @@ body{
     cursor:pointer;
     transition:all 0.5s ease;
 }
-.social-container div:hover{
+#social-container div:hover{
     background-color:rgba(190, 190, 190, 0.384);
 }
 .userDetail-container p{
@@ -213,4 +179,12 @@ body{
     font-size:18px;
     letter-spacing:1px;
     margin-top:0;
+}
+.userDetail-container p a{
+    color:black;
+    text-decoration:none;
+}
+.userDetail-container p a:hover{
+    text-decoration:underline;
+    color:blue;
 }
