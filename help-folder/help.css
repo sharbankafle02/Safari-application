@@ -117,3 +117,37 @@ body{
     letter-spacing:1px;
     margin-top:20px;
 }
+.service-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+}
+.service-container div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    height:90px;
+    width:70px;
+    background-color:rgba(177, 177, 177, 0.455);
+    cursor:pointer;
+}
+.service-container i{
+    font-size:30px;  
+}
+.service-container p{
+    line-height:15px;
+    height:20px;
+}
+.ride-container i{
+    margin-top:5px;
+}
