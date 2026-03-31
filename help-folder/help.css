@@ -140,6 +140,8 @@ body{
     padding-right:20px;
     height:100px;
     width:100px;
+    height:90px;
+    width:70px;
     background-color:rgba(177, 177, 177, 0.455);
     cursor:pointer;
 }
@@ -151,6 +153,8 @@ body{
     height:20px;
     font-size:18px;
     letter-spacing:1px;
+    line-height:15px;
+    height:20px;
 }
 .ride-container i{
     margin-top:5px;
